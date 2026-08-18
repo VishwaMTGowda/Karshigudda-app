@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
+@import 'leaflet/dist/leaflet.css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -162,4 +163,55 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Leaflet map theming to match the earthy palette */
+.leaflet-container {
+  background: var(--muted);
+  font-family: var(--font-sans);
+}
+
+.kg-marker-dot {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  background: var(--primary);
+  border: 2px solid var(--background);
+  box-shadow: 0 0 0 4px color-mix(in oklch, var(--primary) 25%, transparent);
+}
+
+.kg-marker-dot--studio {
+  width: 18px;
+  height: 18px;
+  background: var(--accent);
+  box-shadow: 0 0 0 5px color-mix(in oklch, var(--accent) 30%, transparent);
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius);
+  background: var(--card);
+  color: var(--card-foreground);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 0.12);
+}
+
+.leaflet-popup-tip {
+  background: var(--card);
+}
+
+.kg-popup-title {
+  display: block;
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+.kg-popup-place {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted-foreground);
 }

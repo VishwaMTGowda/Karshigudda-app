@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { About } from "@/components/about"
 import { Gallery } from "@/components/gallery"
 import { FilmShowcase } from "@/components/film-showcase"
+import { LocationMap } from "@/components/location-map"
 import { ContactFooter } from "@/components/contact-footer"
 
 export default function Page() {
@@ -13,6 +14,7 @@ export default function Page() {
       <About />
       <Gallery />
       <FilmShowcase />
+      <LocationMap />
       <ContactFooter />
     </main>
   )
