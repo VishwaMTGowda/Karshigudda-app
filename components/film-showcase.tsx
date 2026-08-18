@@ -7,15 +7,17 @@ export function FilmShowcase() {
   const videoRef = useRef<HTMLVideoElement>(null)
   const [playing, setPlaying] = useState(false)
 
-  const toggle = () => {
+  const toggle = async () => {
     const video = videoRef.current
     if (!video) return
     if (video.paused) {
-      video.play()
-      setPlaying(true)
+      try {
+        await video.play()
+      } catch {
+        // Ignore AbortError: play() was interrupted by a pause().
+      }
     } else {
       video.pause()
-      setPlaying(false)
     }
   }
 
@@ -42,6 +44,8 @@ export function FilmShowcase() {
           className="aspect-video w-full object-cover"
           playsInline
           preload="none"
+          onPlay={() => setPlaying(true)}
+          onPause={() => setPlaying(false)}
           onEnded={() => setPlaying(false)}
         >
           <source
