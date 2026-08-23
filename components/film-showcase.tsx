@@ -49,7 +49,7 @@ export function FilmShowcase() {
           onEnded={() => setPlaying(false)}
         >
           <source
-            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            src="/images/2_v.mp4"
             type="video/mp4"
           />
         </video>
@@ -70,7 +70,7 @@ export function FilmShowcase() {
 
         <div className="pointer-events-none absolute bottom-6 left-6 flex items-center gap-3 text-background">
           <span className="text-xs uppercase tracking-[0.2em]">Kashigudda — Turning Season</span>
-          <span className="text-xs text-background/70">04:12</span>
+          {/* <span className="text-xs text-background/70">04:12</span> */}
         </div>
       </div>
     </section>

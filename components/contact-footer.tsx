@@ -24,22 +24,37 @@ export function ContactFooter() {
             <h2 className="max-w-md text-balance font-serif text-4xl font-light leading-tight lg:text-6xl">
               Let&apos;s wander somewhere green together.
             </h2>
-            <p className="mt-8 max-w-md text-pretty leading-relaxed text-primary-foreground/75">
+            {/* <p className="mt-8 max-w-md text-pretty leading-relaxed text-primary-foreground/75">
               For commissions, prints, or expedition collaborations, send a note. We answer every
               message that finds its way to the hills.
-            </p>
+            </p> */}
 
-            <div className="mt-12 space-y-2 text-primary-foreground/85">
+            {/* <div className="mt-12 space-y-2 text-primary-foreground/85">
               <p className="text-lg">hello@kashigudda.studio</p>
-              <p className="text-lg">+91 98000 00000</p>
+              <p className="text-lg">+91 8762165667</p>
+              <p className="text-lg">+91 9448900910</p>
+              <p className="text-lg">+91 8762066385</p>
               <p className="text-sm uppercase tracking-[0.2em] text-primary-foreground/60">
                 Malenadu, Karnataka
               </p>
-            </div>
+            </div> */}
           </div>
 
           <div className="lg:pl-10">
-            {sent ? (
+            <div className="mt-12 space-y-2 text-primary-foreground/85">
+              <p className="mb-6 flex items-center gap-3 text-sm uppercase tracking-[0.25em] text-primary-foreground/70">
+              <span className="h-px w-10 bg-accent" />
+              Get More Information
+            </p>
+              <p className="text-lg">+91 8762165667</p>
+              <p className="text-lg">+91 9448900910</p>
+              <p className="text-lg">+91 8762066385</p>
+              <p className="text-sm uppercase tracking-[0.2em] text-primary-foreground/60">
+                Kashigudda,Chikkamagaluru, Karnataka.
+              </p>
+            </div>
+
+            {/* {sent ? (
               <div className="flex h-full min-h-64 flex-col items-start justify-center rounded-sm border border-primary-foreground/20 p-8">
                 <p className="font-serif text-2xl">Thank you.</p>
                 <p className="mt-3 text-primary-foreground/75">
@@ -73,43 +88,43 @@ export function ContactFooter() {
                   <ArrowUpRight className="size-4" />
                 </button>
               </form>
-            )}
+            )} */}
           </div>
         </div>
 
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-primary-foreground/15 pt-8 text-sm text-primary-foreground/60 sm:flex-row sm:items-center">
           <span className="font-serif text-lg text-primary-foreground">Kashigudda</span>
-          <span>&copy; {new Date().getFullYear()} Kashigudda Studio. All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Kashigudda All rights reserved.</span>
         </div>
       </div>
     </footer>
   )
 }
 
-function Field({
-  label,
-  name,
-  type,
-  placeholder,
-}: {
-  label: string
-  name: string
-  type: string
-  placeholder: string
-}) {
-  return (
-    <div className="flex flex-col gap-2">
-      <label htmlFor={name} className="text-sm text-primary-foreground/70">
-        {label}
-      </label>
-      <input
-        id={name}
-        name={name}
-        type={type}
-        required
-        placeholder={placeholder}
-        className="rounded-sm border border-primary-foreground/25 bg-transparent px-4 py-3 text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none"
-      />
-    </div>
-  )
-}
+// function Field({
+//   label,
+//   name,
+//   type,
+//   placeholder,
+// }: {
+//   label: string
+//   name: string
+//   type: string
+//   placeholder: string
+// }) {
+//   return (
+//     <div className="flex flex-col gap-2">
+//       <label htmlFor={name} className="text-sm text-primary-foreground/70">
+//         {label}
+//       </label>
+//       <input
+//         id={name}
+//         name={name}
+//         type={type}
+//         required
+//         placeholder={placeholder}
+//         className="rounded-sm border border-primary-foreground/25 bg-transparent px-4 py-3 text-primary-foreground placeholder:text-primary-foreground/40 focus:border-accent focus:outline-none"
+//       />
+//     </div>
+//   )
+// }

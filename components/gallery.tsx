@@ -1,39 +1,39 @@
 const shots = [
   {
-    src: "/images/gallery-forest.png",
+    src: "/images/hero-hills.png",
     alt: "Sunlight streaming through a dense green forest canopy",
     title: "Understory",
     place: "Western Ghats",
     span: "lg:col-span-7",
   },
   {
-    src: "/images/gallery-mist.png",
+    src: "/images/2.jpeg",
     alt: "A foggy mountain peak rising above a sea of clouds at dawn",
     title: "First Light",
     place: "Kumara Ridge",
     span: "lg:col-span-5",
   },
   {
-    src: "/images/gallery-river.png",
+    src: "/images/4.jpeg",
     alt: "A clear stream flowing over smooth rocks through a green valley",
     title: "Slow Water",
     place: "Netravati Valley",
     span: "lg:col-span-5",
   },
   {
-    src: "/images/gallery-field.png",
+    src: "/images/5.jpeg",
     alt: "Golden terraced farmland on a hillside at sunset",
     title: "Harvest Terraces",
     place: "Malenadu",
     span: "lg:col-span-7",
   },
-  {
-    src: "/images/gallery-lake.png",
-    alt: "A calm mirror-like mountain lake reflecting green hills and sky",
-    title: "Still Mirror",
-    place: "Highland Basin",
-    span: "lg:col-span-12",
-  },
+  // {
+  //   src: "/images/6.jpeg",
+  //   alt: "A calm mirror-like mountain lake reflecting green hills and sky",
+  //   title: "Still Mirror",
+  //   place: "Highland Basin",
+  //   span: "lg:col-span-12",
+  // },
 ]
 
 export function Gallery() {
