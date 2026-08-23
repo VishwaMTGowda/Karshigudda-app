@@ -69,7 +69,7 @@ export function FilmShowcase() {
         </button>
 
         <div className="pointer-events-none absolute bottom-6 left-6 flex items-center gap-3 text-background">
-          <span className="text-xs uppercase tracking-[0.2em]">Kashigudda — Turning Season</span>
+          <span className="text-xs uppercase tracking-[0.2em]">Karshigudda — Turning Season</span>
           {/* <span className="text-xs text-background/70">04:12</span> */}
         </div>
       </div>

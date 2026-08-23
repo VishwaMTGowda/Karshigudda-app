@@ -3,10 +3,10 @@
 import { useEffect, useRef } from "react"
 import type { Map as LeafletMap } from "leaflet"
 
-// Kashigudda sits in the Malenadu highlands of the Western Ghats, Karnataka.
+// Karshigudda sits in the Malenadu highlands of the Western Ghats, Karnataka.
 const CENTER: [number, number] = [13.282949, 75.346820]
 const LOCATIONS: { name: string; place: string; coords: [number, number] }[] = [
-  { name: "The Studio", place: "Kashigudda, Malenadu", coords: [13.282949, 75.2295] },
+  { name: "The Studio", place: "Karshigudda, Malenadu", coords: [13.282949, 75.2295] },
   { name: "First Light", place: "Kumara Ridge", coords: [13.282949, 75.3211] },
   { name: "Slow Water", place: "Netravati Valley", coords: [13.1802, 75.1024] },
   { name: "Harvest Terraces", place: "Malenadu Slopes", coords: [13.2461, 75.3567] },
@@ -90,7 +90,7 @@ export function LocationMap() {
             ref={containerRef}
             className="h-[420px] w-full lg:h-[520px]"
             role="application"
-            aria-label="Map showing Kashigudda studio and featured landscape locations in the Western Ghats"
+            aria-label="Map showing Karshigudda studio and featured landscape locations in the Western Ghats"
           />
         </div>
       </div>

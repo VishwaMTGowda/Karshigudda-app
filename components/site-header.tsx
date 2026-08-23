@@ -24,19 +24,17 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${
+      className={`mb-1.5 fixed inset-x-0 top-0 z-50 transition-colors duration-500 ${
         scrolled ? "bg-background/85 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
-        <a
-          href="#top"
-          className={`font-serif text-xl font-semibold tracking-tight transition-colors ${
-            scrolled ? "text-foreground" : "text-background"
-          }`}
-        >
-          Kashigudda
-        </a>
+  <img 
+    src="images/logo.png" 
+    alt="mm" 
+    className="h-15 w-auto object-contain " 
+  />
+
 
         <nav className="hidden items-center gap-10 md:flex">
           {navLinks.map((link) => (

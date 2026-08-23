@@ -50,7 +50,7 @@ export function ContactFooter() {
               <p className="text-lg">+91 9448900910</p>
               <p className="text-lg">+91 8762066385</p>
               <p className="text-sm uppercase tracking-[0.2em] text-primary-foreground/60">
-                Kashigudda,Chikkamagaluru, Karnataka.
+                Karshigudda,Chikkamagaluru, Karnataka.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ export function ContactFooter() {
 
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-primary-foreground/15 pt-8 text-sm text-primary-foreground/60 sm:flex-row sm:items-center">
           <span className="font-serif text-lg text-primary-foreground">Kashigudda</span>
-          <span>&copy; {new Date().getFullYear()} Kashigudda All rights reserved.</span>
+          <span>&copy; {new Date().getFullYear()} Karshigudda All rights reserved.</span>
         </div>
       </div>
     </footer>

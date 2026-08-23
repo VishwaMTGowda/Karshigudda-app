@@ -5,12 +5,13 @@ export function About() {
         <div className="flex flex-col justify-center">
           <p className="mb-6 flex items-center gap-3 text-sm uppercase tracking-[0.25em] text-muted-foreground">
             <span className="h-px w-10 bg-accent" />
-Explore. Experience. Stay.          </p>
+Explore. Experience. Stay.    
+      </p>
           <h2 className="text-balance font-serif text-4xl font-light leading-tight text-foreground lg:text-5xl">
-           Welcome to Kashigudda
+           Welcome to Karshigudda
           </h2>
           <p className="mt-8 text-pretty text-lg leading-relaxed text-muted-foreground">
-            Discover the beauty of Malenadu with Kashigudda — your gateway to the misty hills, lush forests, winding roads, and peaceful landscapes of Karnataka.
+            Discover the beauty of Malenadu with Karshigudda — your gateway to the misty hills, lush forests, winding roads, and peaceful landscapes of Karnataka.
 
 We provide reliable jeep services to the hills and scenic destinations of the Malenadu region, making it easier for you to explore places that are difficult to reach by regular vehicles. Whether you're looking for an adventurous hill journey, a peaceful escape into nature, or a memorable trip with family and friends, our local jeep service is ready to take you there.
           </p>
