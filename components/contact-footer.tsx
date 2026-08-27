@@ -46,6 +46,10 @@ export function ContactFooter() {
               <span className="h-px w-10 bg-accent" />
               Get More Information
             </p>
+            <p className="mb-6 flex items-center gap-3 text-sm uppercase tracking-[0.25em] text-primary-foreground/70">
+              
+Manohith             </p>
+
               <p className="text-lg">+91 8762165667</p>
               <p className="text-lg">+91 9448900910</p>
               <p className="text-lg">+91 8762066385</p>
@@ -93,7 +97,7 @@ export function ContactFooter() {
         </div>
 
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-primary-foreground/15 pt-8 text-sm text-primary-foreground/60 sm:flex-row sm:items-center">
-          <span className="font-serif text-lg text-primary-foreground">Kashigudda</span>
+          <span className="font-serif text-lg text-primary-foreground">Karshigudda</span>
           <span>&copy; {new Date().getFullYear()} Karshigudda All rights reserved.</span>
         </div>
       </div>
