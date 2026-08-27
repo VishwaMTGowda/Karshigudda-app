@@ -10,7 +10,7 @@ const shots = [
     src: "/images/2.jpeg",
     alt: "A foggy mountain peak rising above a sea of clouds at dawn",
     title: "First Light",
-    place: "Kumara Ridge",
+    place: "Meruthi gudda",
     span: "lg:col-span-5",
   },
   {
@@ -24,7 +24,7 @@ const shots = [
     src: "/images/5.jpeg",
     alt: "Golden terraced farmland on a hillside at sunset",
     title: "Harvest Terraces",
-    place: "Malenadu",
+    place: "Kyatanmakki ",
     span: "lg:col-span-7",
   },
   // {
