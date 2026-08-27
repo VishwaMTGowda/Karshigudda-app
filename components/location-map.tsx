@@ -6,10 +6,10 @@ import type { Map as LeafletMap } from "leaflet"
 // Karshigudda sits in the Malenadu highlands of the Western Ghats, Karnataka.
 const CENTER: [number, number] = [13.282949, 75.346820]
 const LOCATIONS: { name: string; place: string; coords: [number, number] }[] = [
-  { name: "The Studio", place: "Karshigudda, Malenadu", coords: [13.282949, 75.2295] },
-  { name: "First Light", place: "Kumara Ridge", coords: [13.282949, 75.3211] },
+  { name: "The Studio", place: "Karshigudda ", coords: [13.282949, 75.2295] },
+  { name: "First Light", place: "Meruthi gudda", coords: [13.2897674, 75.36381] },
   { name: "Slow Water", place: "Netravati Valley", coords: [13.1802, 75.1024] },
-  { name: "Harvest Terraces", place: "Malenadu Slopes", coords: [13.2461, 75.3567] },
+  { name: "Harvest Terraces", place: "Kyatanmakki View Point", coords: [13.2669797, 75.2721491] },
 ]
 
 export function LocationMap() {
