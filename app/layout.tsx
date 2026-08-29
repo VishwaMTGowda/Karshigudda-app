@@ -16,10 +16,39 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Kashigudda — Land, Light & Living Landscapes',
+  metadataBase: new URL("https://karshiguddahomestay.com"),
+  title: {
+    default: "Karshigudda Homestay & Jeep Service | Malenadu",
+    template: "%s | Karshigudda",
+  },
   description:
-    'Kashigudda is a nature-led studio and estate capturing the quiet beauty of hills, forests, and rivers through photography and film.',
-  generator: 'v0.app',
+    "Karshigudda offers comfortable homestay facilities, jeep services to the hills, and local tour guidance in the beautiful Malenadu region of Karnataka.",
+  keywords: [
+    "Karshigudda",
+    "Karshigudda Homestay",
+    "Karshigudda Jeep Service",
+    "Malenadu Homestay",
+    "Malenadu Jeep Service",
+    "Malenadu Tourism",
+    "Karnataka Hill Jeep Service",
+    "Malenadu Guest House",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  openGraph: {
+    title: "Karshigudda Homestay & Jeep Service",
+    description:
+      "Explore the hills of Malenadu with Karshigudda — homestay, jeep services and local tour guidance.",
+    url: "https://karshiguddahomestay.com",
+    siteName: "Karshigudda",
+    type: "website",
+  },
   icons: {
     icon: [
       {
