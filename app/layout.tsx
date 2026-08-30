@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     "Kalasa Hills",
     "Karnataka Homestay",
     "Karnataka Hill Jeep Service",
-    "Trekking ",
+    "Karshigudda Trekking ",
   ],
 
   authors: [{ name: "Karshigudda" }],
@@ -87,7 +87,7 @@ export default function RootLayout({
     rel="icon"
     type="image/png"
     sizes="612x512"
-    href="/logo.png"
+    href="icon.png"
   />
 </head>
       <body>{children}</body>
