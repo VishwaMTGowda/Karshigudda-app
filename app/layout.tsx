@@ -15,19 +15,21 @@ export const metadata: Metadata = {
   keywords: [
     "Karshigudda",
     "Karshigudda Homestay",
-    "Karshigudda Jeep Service",
-    "Karshigudda Guest House",
-    "Malenadu Homestay",
-    "Malenadu Jeep Service",
+    "Karshigudda Jeep Service ",
+    "kalasa",
+    "kalasa Tourism",
+    "kalasa homestay",
+    "Karsigudda trekking Service",
     "Malenadu Tourism",
-    "Malenadu Hills",
+    "Kalasa Hills",
     "Karnataka Homestay",
     "Karnataka Hill Jeep Service",
+    "Trekking ",
   ],
 
   authors: [{ name: "Karshigudda" }],
-  creator: "Karshigudda",
-  publisher: "Karshigudda",
+  creator: "Vishwa M.T",
+  publisher: "Vishwa M.T",
 
   alternates: {
     canonical: "https://karshiguddahomestay.com",
@@ -80,6 +82,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="612x512"
+    href="/logo.png"
+  />
+</head>
       <body>{children}</body>
     </html>
   );

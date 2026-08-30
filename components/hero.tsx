@@ -11,10 +11,10 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-foreground/40 via-foreground/20 to-foreground/70"/>
 
       <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-6 pb-16 lg:px-10 lg:pb-24 mt-3">
-        <p className="mb-6 flex items-center gap-3 text-sm uppercase tracking-[0.25em] text-background/80 ">
+        {/* <p className="mb-6 flex items-center gap-3 text-sm uppercase tracking-[0.25em] text-background/80 ">
           <span className="h-px w-10 bg-accent" />
           Explore. Experience. Stay.
-        </p>
+        </p> */}
         <h1 className="max-w-4xl text-balance font-serif text-5xl font-light leading-[1.05] text-background sm:text-6xl lg:text-8xl">
           Where the hills remember every season.
         </h1>
