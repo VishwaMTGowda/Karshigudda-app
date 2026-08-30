@@ -6,6 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
+
     sitemap: "https://karshiguddahomestay.com/sitemap.xml",
   };
 }
