@@ -1,4 +1,4 @@
-import AdBanner from "@/components/AdBanner";
+import AdBanner2 from "@/components/AdBanner2";
 export function About() {
   return (
     <section id="about" className="mx-auto max-w-7xl px-6 py-24 lg:px-10 lg:py-32">
@@ -52,7 +52,7 @@ We provide reliable jeep services to the hills and scenic destinations of the Ma
   </div>
 </div>
       </div>
-            <AdBanner />
+            <AdBanner2 />
 
     </section>
     
