@@ -2,6 +2,8 @@
 
 import { useEffect, useRef } from "react"
 import type { Map as LeafletMap } from "leaflet"
+import AdBanner from "@/components/AdBanner";
+
 
 // Karshigudda sits in the Malenadu highlands of the Western Ghats, Karnataka.
 const CENTER: [number, number] = [13.282949, 75.346820]
@@ -94,6 +96,8 @@ export function LocationMap() {
           />
         </div>
       </div>
+                <AdBanner />
+      
     </section>
   )
 }

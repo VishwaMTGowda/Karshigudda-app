@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react"
 import { Pause, Play } from "lucide-react"
+import AdBanner from "@/components/AdBanner";
 
 export function FilmShowcase() {
   const videoRef = useRef<HTMLVideoElement>(null)
@@ -73,6 +74,7 @@ export function FilmShowcase() {
           {/* <span className="text-xs text-background/70">04:12</span> */}
         </div>
       </div>
+          <AdBanner />
     </section>
   )
 }
