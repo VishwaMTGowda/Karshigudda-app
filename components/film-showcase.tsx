@@ -50,7 +50,7 @@ export function FilmShowcase() {
           onEnded={() => setPlaying(false)}
         >
           <source
-            src="/images/3_v.mp4"
+            src="/images/3_v2.mp4"
             type="video/mp4"
           />
         </video>
