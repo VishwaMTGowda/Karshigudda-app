@@ -1,0 +1,5 @@
+AdSense code:
+ca-pub-2040903055590766
+
+ads.txt:
+google.com, pub-2040903055590766, DIRECT, f08c47fec0942fa0
